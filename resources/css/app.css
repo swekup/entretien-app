@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+h3 {
+    @apply text-2xl font-bold mt-5 text-center;
+}
+
+h2 {
+    @apply text-3xl font-bold mt-5 text-center uppercase;
+}
